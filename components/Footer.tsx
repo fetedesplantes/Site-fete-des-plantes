@@ -13,7 +13,6 @@ const NAV = [
 export default function Footer() {
   const year = new Date().getFullYear();
 
-  // 👉 adapte si tu n’as pas encore ces champs dans site.ts
   const email = (site as any).email ?? "fetedesplantesbarbirey@gmail.com";
   const instagram = (site as any).instagram ?? "https://www.instagram.com/";
   const facebook = site.facebook ?? "https://www.facebook.com/";
