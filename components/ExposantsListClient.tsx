@@ -11,6 +11,7 @@ const CATEGORY_LABEL: Record<ExposantCategory, string> = {
     plantes: "Plantes",
     artisanat: "Artisanat",
     librairie: "Librairie",
+    alimentation: "Alimentation",
     restauration: "Restauration",
     association: "Association",
     autre: "Autre",
