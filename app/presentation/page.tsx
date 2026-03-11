@@ -39,7 +39,7 @@ function SmallCard({
             ].join(" ")}
             style={{
                 background:
-                    "linear-gradient(135deg, rgba(216,143,101,0.22), rgba(235,225,210,0.72))",
+                    "linear-gradient(135deg, rgba(235,225,210,0.72), rgba(235,225,210,0.72))",
             }}
         >
             {children}
@@ -58,7 +58,7 @@ function SectionCard({
     return (
         <div
             className={[
-                "rounded-3xl bg-paper/75 ring-1 ring-stone/30 shadow-soft backdrop-blur",
+                "rounded-3xl bg-paper2 ring-1 ring-stone/30 shadow-soft backdrop-blur",
                 className,
             ].join(" ")}
         >
@@ -278,7 +278,7 @@ export default function PresentationPage() {
                             <SectionCard className="p-6 md:p-10">
                                 <p className="text-forest2 leading-relaxed">{content.histoire}</p>
 
-                                <div className="mt-6 rounded-2xl bg-sand/55 p-5 ring-1 ring-stone/25">
+                                <div className="mt-6 rounded-2xl bg-paper p-5 ring-1 ring-stone/25">
                                     <div className="flex items-start gap-3">
                                         <Users className="mt-0.5 h-5 w-5 text-terracotta" />
                                         <p className="text-sm text-forest2">

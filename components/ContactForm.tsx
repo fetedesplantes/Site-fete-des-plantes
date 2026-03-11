@@ -41,13 +41,13 @@ export default function ContactForm({
     const disabled = !message.trim();
 
     return (
-        <div className="rounded-3xl bg-paper/70 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+        <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
             <div className="flex items-start justify-between gap-6">
                 <div>
                     <h2 className="font-serif text-3xl font-semibold text-forest md:text-4xl">
                         Nous contacter
                     </h2>
-                    <div className="mt-2 h-[2px] w-24 rounded-full bg-leaf/70" />
+                    <div className="mt-2 h-[2px] w-24 rounded-full bg-terracotta" />
                     <p className="mt-3 max-w-prose text-forest2">
                         Laissez-nous un message : votre application mail s’ouvrira avec le texte déjà rempli.
                     </p>
@@ -141,7 +141,7 @@ export default function ContactForm({
                                     className={[
                                         "cursor-pointer rounded-full px-4 py-2 text-sm font-semibold ring-1 transition",
                                         active
-                                            ? "bg-leaf/25 text-forest ring-leaf/30"
+                                            ? "bg-terracotta text-paper ring-paper/30"
                                             : "bg-paper/60 text-forest2 ring-stone/25 hover:bg-paper/80",
                                     ].join(" ")}
                                 >

@@ -219,7 +219,7 @@ export default function HomePage() {
       {/* PRESENTATION */}
       <Section>
         <Reveal>
-          <div className="relative overflow-hidden rounded-3xl bg-paper/70 ring-1 ring-stone/30 shadow-soft backdrop-blur">
+          <div className="relative overflow-hidden rounded-3xl bg-paper2 ring-1 ring-stone/30 shadow-soft backdrop-blur">
             <div
               aria-hidden
               className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-leaf/10 blur-2xl"
@@ -278,7 +278,7 @@ export default function HomePage() {
 
                 <Reveal delay={400}>
                   <div className="mt-7">
-                    <ButtonLink href="/presentation" variant="secondary">
+                    <ButtonLink href="/presentation" variant="primary">
                       En savoir plus
                     </ButtonLink>
                   </div>
@@ -340,7 +340,7 @@ export default function HomePage() {
       {/* INFOS PRATIQUES */}
       <Section className="pt-0">
         <Reveal>
-          <div className="rounded-3xl bg-paper/80 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+          <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
             <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
               <div>
                 <Reveal delay={0}>
@@ -361,7 +361,7 @@ export default function HomePage() {
               </div>
 
               <Reveal delay={180}>
-                <ButtonLink href="/contact" variant="secondary">
+                <ButtonLink href="/contact" variant="primary">
                   Nous contacter
                 </ButtonLink>
               </Reveal>
@@ -497,7 +497,7 @@ export default function HomePage() {
             </div>
 
             <Reveal delay={180}>
-              <ButtonLink href="/galerie" variant="secondary">
+              <ButtonLink href="/galerie" variant="primary">
                 Voir toutes les photos
               </ButtonLink>
             </Reveal>
@@ -510,7 +510,7 @@ export default function HomePage() {
       {/* PARTENAIRES */}
       <Section className="pt-0">
         <Reveal>
-          <div className="rounded-3xl bg-paper/70 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+          <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
             <div className="flex flex-col gap-3 md:flex-row md:items-end md:justify-between">
               <div>
                 <h2 className="font-serif text-3xl font-semibold text-forest md:text-4xl">
@@ -518,7 +518,7 @@ export default function HomePage() {
                 </h2>
                 <div className="mt-2 h-[2px] w-24 rounded-full bg-leaf/70" />
                 <p className="mt-3 text-forest2">
-                  Merci à la mairie, associations et partenaires locaux.
+                  Merci à la mairie, aux associations et aux partenaires locaux.
                 </p>
               </div>
 
@@ -535,7 +535,7 @@ export default function HomePage() {
                     target="_blank"
                     rel="noreferrer"
                     aria-label={`Ouvrir le site de ${partner.name}`}
-                    className="group flex h-24 items-center justify-center rounded-2xl bg-sand px-4 ring-1 ring-stone/30 shadow-soft transition hover:-translate-y-0.5 hover:bg-paper"
+                    className="group flex h-24 items-center justify-center rounded-2xl bg-forest px-4 ring-1 ring-stone/30 shadow-soft transition hover:-translate-y-0.5 hover:bg-paper"
                   >
                     <div className="relative h-14 w-full">
                       <Image

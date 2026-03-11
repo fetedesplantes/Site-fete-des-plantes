@@ -9,6 +9,7 @@ export default {
         extend: {
             colors: {
                 paper: "#EBE1D2",
+                paper2: "#dccdb7",
                 forest: "#466A54",   // plus lumineux
                 forest2: "#6F8F7B",  // hover / secondaire
                 leaf: "#7FB594",      // encore plus “pop” (underline/accents)

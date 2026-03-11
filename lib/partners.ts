@@ -35,4 +35,14 @@ export const partners: Partner[] = [
         logo: "/images/partenaires/ditesbonjourstudio.jpg",
         href: "https://www.instagram.com/dites.bonjour.studio/",
     },
+    {
+        name: "Ouche et Montagne",
+        logo: "/images/partenaires/ouche_montagne.svg",
+        href: "https://ouche-montagne.fr/",
+    },
+    {
+        name: "Maxime TAVANT",
+        logo: "/images/partenaires/logo_max.png",
+        href: "https://maximetavant-dev.com",
+    },
 ];

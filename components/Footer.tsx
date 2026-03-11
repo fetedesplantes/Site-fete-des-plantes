@@ -20,7 +20,7 @@ export default function Footer() {
   return (
     <footer className="relative">
       {/* fond + séparation plus “marquée” */}
-      <div className="bg-sand/60">
+      <div className="bg-paper2">
         <div className="h-px w-full bg-stone/35" />
 
         <div className="mx-auto w-full max-w-[1200px] px-6 py-12 lg:px-10">

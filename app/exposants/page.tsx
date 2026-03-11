@@ -10,7 +10,7 @@ export default function ExposantsPage() {
         <>
             {/* HERO */}
             <Section className="pt-10 md:pt-16">
-                <div className="rounded-3xl bg-paper/70 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+                <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
                     <div className="flex flex-col gap-6 md:flex-row md:items-end md:justify-between">
                         <div className="max-w-2xl">
                             <h1 className="font-serif text-5xl font-semibold tracking-tight text-forest md:text-6xl">
@@ -60,7 +60,7 @@ export default function ExposantsPage() {
 
             {/* INFOS */}
             <Section className="pt-0">
-                <div className="rounded-3xl bg-sand/45 p-6 ring-1 ring-stone/25 md:p-10">
+                <div className="rounded-3xl bg-paper2/85 p-6 ring-1 ring-stone/25 md:p-10">
                     <h3 className="font-serif text-2xl font-semibold text-forest">
                         Vous êtes exposant ?
                     </h3>

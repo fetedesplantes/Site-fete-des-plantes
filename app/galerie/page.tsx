@@ -28,7 +28,7 @@ export default function GaleriePage() {
   return (
     <>
       <Section className="pt-10 md:pt-16">
-        <div className="rounded-3xl bg-paper/70 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+        <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
           <h1 className="font-serif text-6xl font-semibold tracking-tight text-forest">
             Galerie
           </h1>

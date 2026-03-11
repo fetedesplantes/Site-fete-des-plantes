@@ -8,7 +8,7 @@ export default function ContactPage() {
     return (
         <>
             <Section className="pt-10 md:pt-16">
-                <div className="rounded-3xl bg-paper/70 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+                <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
                     <h1 className="font-serif text-5xl font-semibold tracking-tight text-forest md:text-6xl">
                         Contact
                     </h1>
@@ -28,7 +28,7 @@ export default function ContactPage() {
 
                     {/* INFOS */}
                     <div className="md:col-span-5">
-                        <div className="rounded-3xl bg-paper/70 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-10">
+                        <div className="rounded-3xl bg-paper2 p-6 ring-1 ring-stone/30 shadow-soft backdrop-blur md:p-6">
                             <h2 className="font-serif text-3xl font-semibold text-forest">
                                 Infos contact
                             </h2>
@@ -51,9 +51,6 @@ export default function ContactPage() {
                                             </p>
                                         </div>
                                     </div>
-                                    <span className="text-sm font-semibold text-forest2 group-hover:text-forest">
-                                        Écrire
-                                    </span>
                                 </a>
 
                                 {/* Facebook */}
@@ -73,9 +70,6 @@ export default function ContactPage() {
                                                 <p className="font-semibold text-forest">Fête des plantes Barbirey -sur-Ouche 17 mai 2026</p>
                                             </div>
                                         </div>
-                                        <span className="text-sm font-semibold text-forest2 group-hover:text-forest">
-                                            Ouvrir
-                                        </span>
                                     </a>
                                 ) : null}
 
@@ -96,9 +90,6 @@ export default function ContactPage() {
                                                 <p className="font-semibold text-forest">@fete_des_plantes_barbirey</p>
                                             </div>
                                         </div>
-                                        <span className="text-sm font-semibold text-forest2 group-hover:text-forest">
-                                            Ouvrir
-                                        </span>
                                     </a>
                                 ) : null}
                             </div>
@@ -111,7 +102,7 @@ export default function ContactPage() {
                                 <div className="mt-4">
                                     <Link
                                         href="/exposants"
-                                        className="inline-flex items-center justify-center rounded-2xl bg-forest px-5 py-3 text-sm font-semibold text-paper shadow-soft transition hover:bg-forest2"
+                                        className="inline-flex items-center justify-center rounded-2xl bg-terracotta px-5 py-3 text-sm font-semibold text-paper shadow-soft transition hover:bg-terracotta2"
                                     >
                                         Voir les exposants
                                     </Link>
