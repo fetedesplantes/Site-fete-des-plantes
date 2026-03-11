@@ -79,7 +79,7 @@ export default function Header() {
           <Link href="/" className="group flex items-center gap-3">
             <div className="relative h-11 w-11 overflow-hidden rounded-2xl bg-sand ring-1 ring-stone/40 shadow-soft transition-transform duration-300 group-hover:scale-[1.03] md:h-12 md:w-12">
               <Image
-                src="/images/logo_plante.jpg"
+                src="/images/logo_fete.png"
                 alt="Logo Fête des Plantes"
                 fill
                 className="object-cover"
