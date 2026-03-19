@@ -69,7 +69,7 @@ export const exposants: Exposant[] = [
         id: "arbo-et-sens",
         name: "Arbo & Sens",
         category: "pepiniere",
-        description: "Pepiniériste (arbres fruitiers, arbustes ornementaux et vivaces comestibles ou d'ornement",
+        description: "Pépiniériste (arbres fruitiers, arbustes ornementaux et vivaces comestibles ou d'ornement",
         location: "",
         image: "",
         website: "",
