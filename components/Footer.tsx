@@ -83,7 +83,7 @@ export default function Footer() {
               </div>
 
               <p className="mt-4 text-sm text-forest2">
-                Une question ? Écris-nous, on répond dès que possible.
+                Une question ? Écrivez-nous, nous répondons dès que possible.
               </p>
 
               {/* email + réseaux */}

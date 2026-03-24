@@ -22,17 +22,6 @@ export type Exposant = {
 
 export const exposants: Exposant[] = [
     {
-        id: "ail-noir-7080",
-        name: "Ail noir 7080",
-        category: "alimentation",
-        description: "",
-        location: "",
-        image: "",
-        website: "",
-        instagram: "",
-        facebook: ""
-    },
-    {
         id: "au-panier-fleuri",
         name: "Au panier fleuri",
         category: "plantes",
@@ -267,7 +256,7 @@ export const exposants: Exposant[] = [
         id: "lylyflane",
         name: "Lylyflane",
         category: "artisanat",
-        description: "Je créé des objets de décoration et des pièces utilitaires de table en grès.",
+        description: "Création d'objets de décoration et de pièces utilitaires de table en grès.",
         location: "",
         image: "",
         website: "",
@@ -300,7 +289,7 @@ export const exposants: Exposant[] = [
         id: "jardin-en-herbier",
         name: "Le Jardin en Herbier",
         category: "pepiniere",
-        description: "Pépinière paysanne d'aromatiques, médicinales, ornementales et petit fruits rouges en agriculture biologique",
+        description: "Pépinière paysanne d'aromatiques, médicinales, ornementales et petits fruits rouges en agriculture biologique",
         location: "",
         image: "",
         website: "https://lejardinenherbier.sitew.fr/",
@@ -333,7 +322,7 @@ export const exposants: Exposant[] = [
         id: "gaec-bokin-cor",
         name: "GAEC du Bokin Cor",
         category: "alimentation",
-        description: "Ferme paysanne, fromages et herbes aromatique",
+        description: "Ferme paysanne, fromages et herbes aromatiques",
         location: "5 chemin du lavoir, Crepey, 21360 Aubaine",
         image: "",
         website: "https://bokincor.fr/",

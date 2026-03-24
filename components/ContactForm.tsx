@@ -48,9 +48,6 @@ export default function ContactForm({
                         Nous contacter
                     </h2>
                     <div className="mt-2 h-[2px] w-24 rounded-full bg-terracotta" />
-                    <p className="mt-3 max-w-prose text-forest2">
-                        Laissez-nous un message : votre application mail s’ouvrira avec le texte déjà rempli.
-                    </p>
                 </div>
 
                 <div className="hidden md:flex h-12 w-12 items-center justify-center rounded-2xl bg-sand ring-1 ring-stone/30">
@@ -162,7 +159,7 @@ export default function ContactForm({
                         className="mt-2 w-full resize-none rounded-2xl border border-stone/30 bg-paper px-4 py-3 text-sm text-forest outline-none placeholder:text-forest2/60 focus:ring-2 focus:ring-leaf/40"
                     />
                     <p className="mt-2 text-xs text-olive">
-                        * Champ requis. (Envoi via votre application mail pour l’instant.)
+                        * Champ requis.
                     </p>
                 </div>
 

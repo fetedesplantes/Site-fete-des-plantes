@@ -12,6 +12,8 @@ export const site = {
 };
 
 export const content = {
-  histoire: `La Fête des plantes de Barbirey-sur-Ouche est née il y a cinq ans de la passion de sa fondatrice pour les plantes, la nature et le jardinage. Amoureuse du vivant et de la richesse végétale, elle a souhaité créer un événement convivial qui rassemble les amoureux du jardin et du végétal tout en dynamisant la vie du village. Au fil des éditions, la fête est devenue un rendez-vous attendu, où habitants, visiteurs et exposants partagent leurs savoir-faire, leurs conseils et leur enthousiasme dans un cadre authentique et chaleureux.`,
+  histoire: `La Fête des plantes de Barbirey-sur-Ouche est née il y a cinq ans de la passion de sa fondatrice pour les plantes, la nature et le jardinage. Amoureuse du vivant et de la richesse végétale, elle a imaginé un événement convivial rassemblant les amoureux du jardin et du végétal. Séduite par le projet, la mairie a rapidement apporté son soutien et contribué à sa mise en place, permettant à la fête de voir le jour dans le village.
+
+Au fil des éditions, la fête est devenue un rendez-vous attendu, où habitants, visiteurs et exposants partagent leurs savoir-faire, leurs conseils et leur enthousiasme dans un cadre authentique et chaleureux.`,
   philosophie: `La Fête des plantes de Barbirey-sur-Ouche met à l’honneur une approche respectueuse de la nature et du vivant. Nous privilégions des exposants engagés dans des pratiques durables : culture biologique, absence de produits chimiques, respect de la biodiversité et valorisation des savoir-faire locaux. Notre volonté est de proposer un événement à taille humaine, favorisant les échanges, la transmission et la découverte de solutions écologiques pour le jardin et le quotidien.`,
 };
